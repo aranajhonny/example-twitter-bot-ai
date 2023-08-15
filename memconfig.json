@@ -1,0 +1,19 @@
+{
+  "schema": {
+    "types": [
+      {
+        "name": "Root",
+        "actions": [
+          {
+            "name": "tweet",
+            "type": "Void"
+          }
+        ]
+      }
+    ]
+  },
+  "dependencies": {
+    "twitter": "twitter:",
+    "openai": "openai:"
+  }
+}
