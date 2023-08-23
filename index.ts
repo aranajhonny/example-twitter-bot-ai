@@ -25,5 +25,5 @@ export async function tweet() {
       ],
     });
 
-  await nodes.twitter.tweet({ text: `${result.content} #learnwordswithai` });
+  await nodes.twitter.tweet({ text: `${result.content} #membrane` });
 }
